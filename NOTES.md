@@ -20,5 +20,14 @@
 - ダウンロード形式：`https://images.pexels.com/photos/<ID>/pexels-photo-<ID>.jpeg?auto=compress&cs=tinysrgb&w=1200&q=65`
 
 ## 公開
-GitHub Pages: https://tetsu0619hira.github.io/kurori-bread-life-5trxs4/
+公開予定URL（未公開）: https://tetsu0619hira.github.io/kurori-bread-life-5trxs4/
 依頼でGitHub Pagesを指定しているため、AGENTS.mdの標準Cloudflare Pagesより依頼を優先。
+非公開リポジトリは作成・push済み。現プランでは非公開リポジトリのPagesが422で拒否されたため、公開リポジトリへの変更についてユーザー承認待ち。
+
+## 検証結果
+- ブラウザで幅375pxとデスクトップ表示を確認。横はみ出しなし。
+- 固定ボタンは高さ48px、幅163.5px。safe-area-inset-bottom対応。
+- 全3画像のロード、全写真の重ねキャプションを確認。
+- 電話リンク全6箇所はtel:0263759246、外部リンク矢印なし。
+- 地図リンク全3箇所が依頼の指定URLと一致。noindexとviewport-fit=coverを確認。
+- 営業時間とアクセス・お問い合わせのページ内移動を確認。実店舗への発信は行っていない。
